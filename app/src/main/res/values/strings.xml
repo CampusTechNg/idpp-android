@@ -1,0 +1,295 @@
+<resources>
+    <string name="app_name">IDPs Enumeration</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string-array name="nav_item_activity_titles">
+        <item>Enrollment</item>
+        <item>Verification</item>
+        <item>Search</item>
+        <item>Give Relief</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="status">
+        <item>Married</item>
+        <item>Widow</item>
+        <item>Widower</item>
+        <item>Divorced</item>
+        <item>Single</item>
+    </string-array>
+
+    <string-array name="age">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+        <item>100</item>
+    </string-array>
+
+    <string-array name="states">
+        <item>Adamawa</item>
+        <item>Borno</item>
+        <item>Yobe</item>
+    </string-array>
+
+    <string-array name="lga">
+        <item>Maiduguri</item>
+        <item>Mubi</item>
+        <item>Bama</item>
+    </string-array>
+
+    <string-array name="adamawa_lga">
+        <item>Fufure</item>
+        <item>Ganye</item>
+        <item>Gayuk</item>
+        <item>Gombi</item>
+        <item>Grie</item>
+        <item>Hong</item>
+        <item>Jada</item>
+        <item>Lamurde</item>
+        <item>Madagali</item>
+        <item>Maiha</item>
+        <item>Mayo Belwa</item>
+        <item>Michika</item>
+        <item>Mubi North</item>
+        <item>Mubi South</item>
+        <item>Numan</item>
+        <item>Shelleng</item>
+        <item>Song</item>
+        <item>Toungo</item>
+        <item>Yola North</item>
+        <item>Yola South</item>
+    </string-array>
+
+    <string-array name="borno_lga">
+        <item>Askira/Uba</item>
+        <item>Bama</item>
+        <item>Bayo</item>
+        <item>Biu</item>
+        <item>Chibok</item>
+        <item>Damboa</item>
+        <item>Dikwa</item>
+        <item>Gubio</item>
+        <item>Guzamala</item>
+        <item>Gwoza</item>
+        <item>Hawul</item>
+        <item>Jere</item>
+        <item>Kaga</item>
+        <item>Kala/Balge</item>
+        <item>Konduga</item>
+        <item>Kukawa</item>
+        <item>Kwaya Kusar</item>
+        <item>Mafa</item>
+        <item>Magumeri</item>
+        <item>Maiduguri</item>
+        <item>Marte</item>
+        <item>Mobbar</item>
+        <item>Monguno</item>
+        <item>Ngala</item>
+        <item>Nganzai</item>
+        <item>Shani</item>
+    </string-array>
+
+    <string-array name="list_group">
+        <item>Shelter Items</item>
+        <item>Domestic Items</item>
+        <item>Food Items</item>
+        <item>Other Items</item>
+    </string-array>
+
+    <string-array name="yobe_lga">
+        <item>Bursari</item>
+        <item>Damaturu</item>
+        <item>Fika</item>
+        <item>Fune</item>
+        <item>Geidam</item>
+        <item>Gujba</item>
+        <item>Gulani</item>
+        <item>Jakusko</item>
+        <item>Karasuwa</item>
+        <item>Machina</item>
+        <item>Nangere</item>
+        <item>Nguru</item>
+        <item>Potiskum</item>
+        <item>Tarmuwa</item>
+        <item>Yunusari</item>
+        <item>Yusufari</item>
+    </string-array>
+
+    <string-array name="shelter_items">
+        <item>UNHR Family Tent, (Item No 05353)</item>
+        <item>Reinforced Plastic Tarpaulins in Sheets 4 x 5 m (Item No 02617)</item>
+        <item>Reinforced Plastic Tarpaulins 4 x 50 m (Item No 03153)</item>
+    </string-array>
+
+    <string-array name="domestic_items">
+        <item>Mosquito Nets - LLIN (Item No 01998)</item>
+        <item>Blanket, Synthetic - Medium Thermal (Item No 05787)</item>
+        <item>Blanket, Synthetic - High Thermal (Item No 05786)</item>
+        <item>Synthetic Sleeping Mats (Item No 02020)</item>
+        <item>Cloth for Sanitary Material (Item No 01515)</item>
+        <item>Heavy Duty Plastic Bucket w/Lid - 10 liter capacity (Item No 00100)</item>
+        <item>Heavy Duty Plastic Bucket w/Lid - 15 liter capacity (Item No 04165)</item>
+        <item>Semi-Collapsible Jerry can - 10 liter capacity (Item No 00096)</item>
+        <item>Kitchen Set - Type A (Item No 02039)</item>
+        <item>Kitchen Set - Type B (Item No 02040)</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="food_items">
+        <item>Rice</item>
+        <item>Millet</item>
+        <item>Milk</item>
+        <item>Sugar</item>
+    </string-array>
+
+    <string-array name="other_items">
+        <item>Soap</item>
+        <item>Detergent</item>
+        <item>Sanitary pads</item>
+    </string-array>
+
+    <string-array name="logout_times">
+        <item>5 mins</item>
+        <item>10 mins</item>
+        <item>15 mins</item>
+        <item>30 mins</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_fingerprint_capture">FingerprintCaptureActivity</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_idpdetails">Enrollment Details</string>
+    <string name="title_home_activity">Home</string>
+    <string name="title_relief_card_activity">Relief Card</string>
+    <string name="title_history_activity">History</string>
+    <string name="title_login_acitivty">Login</string>
+    <string name="drop_down_default_value">Select...</string>
+    <string name="host">192.168.137.1</string>
+    <string name="enroll_endpoint">enroll</string>
+    <string name="title_activity_relief_items">ReliefItemsActivity</string>
+    <string name="title_activity_barcode_scanner">BarcodeScannerActivity</string>
+    <string name="preference_settings">IDP_ENROLLMENT_PREF</string>
+    <string name="auto_sync">auto_sync</string>
+    <string name="coordinates">geo_tag</string>
+    <string name="loc_name">location_name</string>
+    <string name="logout_time">logout_time</string>
+    <string name="default_coordinates">0.00000,0.00000</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_enroll"
+            android:icon="@drawable/ic_person_add_black_24dp"
+            android:title="Enroll" />
+        <item
+            android:id="@+id/nav_verify"
+            android:icon="@drawable/ic_fingerprint_black_24dp"
+            android:title="Verify" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_drawer_search"
+            android:title="Search" />
+        <item
+            android:id="@+id/nav_relief"
+            android:icon="@drawable/ic_drawer_relief"
+            android:title="Give Relief" />
+       <!-- <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_lock_outline_black_24dp"
+            android:title="Logout" />-->
+    </group>
+
+   <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_drawer_settings"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_lock_outline_black_24dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

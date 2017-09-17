@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.campustechng.aminu.idpenrollment.fragments.VerificationFragment">
+
+    <ImageView
+        android:id="@+id/fingerprint_verify"
+        android:layout_width="match_parent"
+        android:layout_height="226dp"
+        android:onClick="startScan"
+        app:srcCompat="@drawable/fingerprint" />
+
+    <TextView
+        android:id="@+id/fingerprint_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.29"
+        android:gravity="center" />
+</LinearLayout>
